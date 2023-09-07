@@ -2,8 +2,8 @@ baseURL = "$HUGO_BASEURL"
 title = "Art website"
 # disableKinds = ["page", "section", "taxonomy", "term"]
 timeout = 60000
-# theme = ["github.com/cromozooom/calina"]
-theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
+theme = ["github.com/cromozooom/calina"]
+# theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
 
 paginate = 3
 
@@ -109,6 +109,9 @@ link = "https://calinalefter.tumblr.com/"
 [module.hugoVersion]
 extended = false
 min = "0.112.0"
+
+[[module.imports]]
+path = "github.com/cromozooom/calina"
 [[module.mounts]]
 source = "assets"
 target = "assets"
