@@ -12,3 +12,5 @@ $ hugo mod init github.com/<your_user>/<your_project>
 ```toml
   theme = ["github.com/cromozooom/calina"]
 ```
+
+5.
